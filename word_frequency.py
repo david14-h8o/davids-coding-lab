@@ -1,6 +1,6 @@
 # word_frequency.py
 from collections import Counter
-
+ 
 def analyze_file(filename):
     with open(filename, "r", encoding="utf-8") as f:
         text = f.read().lower().split()
