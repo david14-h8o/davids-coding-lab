@@ -9,3 +9,4 @@ if __name__ == "__main__":
     rolls = int(input("Number of rolls: "))
     results = roll_dice(sides, rolls)
     print("Results:", results)
+ 
