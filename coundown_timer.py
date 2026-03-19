@@ -1,6 +1,6 @@
 # countdown_timer.py
 import time
-
+ 
 def countdown(seconds):
     while seconds > 0:
         print(f"Time left: {seconds} sec")
